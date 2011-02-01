@@ -3,6 +3,7 @@
 
 # do not ignore: 
 !.bash/
+!.zsh/
 !.vim/
 !.ruby/
 !bin/
