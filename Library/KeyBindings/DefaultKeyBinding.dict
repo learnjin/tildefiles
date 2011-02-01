@@ -1,0 +1,51 @@
+
+{
+    /* Additional Emacs-like bindings */
+
+
+    "^a"  = "moveToBeginningOfLine:";
+    "^ㅁ"  = "moveToBeginningOfLine:";
+    "^e"  = "moveToEndOfLine:";
+    "^ㄷ"  = "moveToEndOfLine:";
+		
+    "^u" = "deleteToBeginningOfLine:";
+    "^ㅕ" = "deleteToBeginningOfLine:";
+    "^k" = "deleteToEndOfLine:";
+    "^ㅏ" = "deleteToEndOfLine:";
+
+    /* Additional Emacs bindings */
+
+    "^ㄹ" = "moveForward:";
+    "^ㅠ" = "moveBackward:";
+    "~f" = "moveWordForward:";
+    "~ㄹ" = "moveWordForward:";
+    "~b" = "moveWordBackward:";
+    "~ㅠ" = "moveWordBackward:";
+    "~<" = "moveToBeginningOfDocument:";
+    "~>" = "moveToEndOfDocument:";
+    "^v" = "pageDown:";
+    "~v" = "pageUp:";
+    "~ㅍ" = "pageUp:";
+
+    "~j" = "insertNewLine:"
+    "~ㅓ" = "insertNewLine:"
+    
+    "~\d" = "deleteWordForward:";
+    "~\ㅇ" = "deleteWordForward:";
+    "^w" = "deleteWordBackward:";
+    "^ㅈ" = "deleteWordBackward:";
+    
+    "^ㅇ" = "deleteForward:";
+    "^ㅗ" = "deleteBackward:";
+
+    "^x" = { "^s"  = "save:"; };
+    "^ㅌ" = { "^ㄴ"  = "save:"; };
+
+    "^$g" = "abort:";
+    "^$ㅎ" = "abort:";
+
+    /* Escape should really be complete: */
+    "\033" = "complete:";  /* Escape */
+
+}
+
