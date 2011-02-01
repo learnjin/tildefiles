@@ -1,0 +1,43 @@
+startup_message off
+vbell off
+
+defscrollback 10000
+
+escape ^Oo
+#escape ``
+#escape ~~
+#escape ^]^]
+
+hardstatus alwayslastline
+#hardstatus alwaysfirstline
+#hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %d/%m %{W}%c %{g}]'
+#hardstatus string '%{= kg}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{=b kR}(%{W}%n*%f %t%?(%u)%?%{=b kR})%{= kw}%?%+Lw%?%?%= %{g}][%{Y}%l%{g}]%{=b C}[ %d %M %c ]%{W}'
+#hardstatus string '%{= mK}%-Lw%{= KW}%50>%n%f* %t%{= mK}%+Lw%< %{= kG}%-=%D %d %M %Y %c:%s%{-}'
+hardstatus string '%{= kG}%-Lw%{= kW}%50> %n%f* %t%{= kG}%+Lw%< %{= kG}%-=%c:%s%{-}'
+
+#screen -t '#'
+#screen -t edit zsh -c 'vim .' &
+#screen -t 'console' zsh -c 'rails console' &
+##screen -t server zsh -c 'rails s' &
+#screen -t mongo zsh -c 'mongo' &
+#
+
+# rails development
+
+chdir "/Users/kai/Desktop/Projects/Doxter/Workspace/weise"
+#chdir "/Users/kai/tmp/weise"
+
+screen -t project
+screen -t edit
+stuff "vim .\015"
+screen -t test zsh
+screen -t console
+stuff "rails console \015"
+screen -t server
+stuff "rails s \015"
+screen -t mongo
+stuff "mongo weise_development \015"
+screen -t logger
+stuff "tail -f log/klogger.log \015"
+
+

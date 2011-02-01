@@ -1,0 +1,14 @@
+[user]
+	name = Kai Rubarth
+	email = krubar@gmail.com
+[color]
+	status = auto
+	branch = auto
+	diff = auto
+	interactive = auto
+	ui = auto
+[merge]
+	tool = meld
+
+[core]
+	excludesfile = "/Users/kai/.gitexcludes"

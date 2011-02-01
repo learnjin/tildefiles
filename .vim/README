@@ -1,0 +1,17 @@
+
+Installation: 
+    
+    git clone git://github.com/learnjin/dotvim.git ~/.vim
+
+Create symlinks:
+
+    ln -s ~/.vim/vimrc ~/.vimrc
+    ln -s ~/.vim/gvimrc ~/.gvimrc
+
+Install new plugins as submodules:
+
+    cd ~/.vim
+    git submodule add git://github.com/kana/vim-textobj-user.git bundle/textobj-user
+    git commit -m "added plugin X as new submodule"
+
+

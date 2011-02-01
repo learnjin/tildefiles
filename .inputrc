@@ -1,0 +1,10 @@
+set horizontal-scroll-mode On
+"\C-x\C-r": re-read-init-file
+Tab: complete
+
+set editing-mode vi 
+set keymap vi
+
+# set editing-mode vi
+#
+

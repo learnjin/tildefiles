@@ -1,0 +1,9 @@
+# ignore all by default
+/*
+
+# do not ignore: 
+!.bash/
+!.vim/
+!.ruby/
+!bin/
+
