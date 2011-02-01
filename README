@@ -6,9 +6,18 @@ My dotfiles. To install:
     mv tildefiles/.git .
     rm -rf tildefiles
 
-And to overwrite your dotfiles with the ones fromt 
+    git remote rm origin
+    git remote add origin git://github.com/learnjin/tildefiles.git
+
+And to overwrite your dotfiles with the ones from
 the repository:
 
     git reset --hard
+
+
+Untracked files must be force added; directories unignored.
+
+    git add -f SOME_NEW_FILE
+    echo >> "!NEW_DIR/" >> .gitignore
 
 
