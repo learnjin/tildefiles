@@ -123,7 +123,6 @@ set ttimeoutlen=50                " Speed up <esc>
 
 
 " Visual stuff
-set number
 set ruler
 set linebreak
 set novisualbell
@@ -138,7 +137,7 @@ set cf "enable error files and error jumping
 set history=1024
 set autowrite " writes on make/shell commands
 set ruler
-set nu "line numbers on
+"set number "line numbers on
 
 """"""""""""""""""""""""""""""""""""""""""""
 " LOOKS
