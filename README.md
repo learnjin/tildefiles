@@ -8,14 +8,15 @@ My dotfiles. To install:
     git remote rm origin
     git remote add origin git://github.com/learnjin/tildefiles.git
 
-    git submodules init
-    git submodule update
-
-
 And to overwrite your dotfiles with the ones from
 the repository:
 
     git reset --hard
+
+And finally pull down the submodules.
+
+    git submodules init
+    git submodule update
 
 
 Do add new files force add or ignore directories in `.gitignore`
