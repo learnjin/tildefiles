@@ -17,13 +17,6 @@ compinit
 source ~/.zsh/cap_completion
 source ~/.zsh/rake_completion
 
-function ec(){
-    /Applications/Emacs.app/Contents/MacOS/bin/emacsclient -n $@ 2>/dev/null
-    if [ $? != 0 ]; then
-        /usr/bin/open -a /Applications/Emacs.app  $@
-    fi
-}
-
 alias mysqlstart='sudo /opt/local/bin/mysqld_safe5'
 alias mysqlstop='/opt/local/bin/mysqladmin5 -u root -p shutdown'
 
@@ -34,18 +27,7 @@ alias -g wd='~/Desktop/Projects/Doxter/Workspace/'
 alias v='mvim'
 alias ll='ls -l'
 
-if [[ -s /Users/kai/.rvm/scripts/rvm ]] ; then source /Users/kai/.rvm/scripts/rvm ; fi
-
-function vm(){
-if [ -d $1 ]; then
-  vim -c ":NERDTree $1" & 2>&1 > /dev/null
-else
-  mvim $1 &
-fi
-}
-. ~/.zsh/config
-. ~/.zsh/aliases
-. ~/.zsh/completion
+if [[ -s ~/.rvm/scripts/rvm ]] ; then source ~/.rvm/scripts/rvm ; fi
 
 # use .localrc for settings specific to one system
 [[ -f ~/.localrc ]] && .  ~/.localrc
