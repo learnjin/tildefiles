@@ -22,11 +22,17 @@ alias mysqlstop='/opt/local/bin/mysqladmin5 -u root -p shutdown'
 
 #directory aliases
 alias -g pj='~/Desktop/Projects'
-alias -g wd='~/Desktop/Projects/Doxter/Workspace/'
+alias -g wd='~/Workspace/doxter'
 
-alias v='mvim'
 alias ll='ls -l'
 
+# imitate MacOS's clibpboard commands
+if [[ `uname` == 'Linux' ]]; then
+  alias pbcopy='xclip -selection clipboard'
+  alias pbpaste='xclip -selection clipboard -o'
+fi
+
+# RVM
 if [[ -s ~/.rvm/scripts/rvm ]] ; then source ~/.rvm/scripts/rvm ; fi
 
 # use .localrc for settings specific to one system
