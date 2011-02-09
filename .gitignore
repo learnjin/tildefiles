@@ -5,6 +5,7 @@
 !.bash/
 !.zsh/
 !.vim/
+.vim/.netrwhist
 !.ruby/
 !bin/
 

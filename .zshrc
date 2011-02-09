@@ -21,8 +21,8 @@ alias mysqlstart='sudo /opt/local/bin/mysqld_safe5'
 alias mysqlstop='/opt/local/bin/mysqladmin5 -u root -p shutdown'
 
 #directory aliases
-alias -g pj='~/Desktop/Projects'
-alias -g wd='~/Workspace/doxter'
+alias -g pj='~/Projects'
+alias -g wd='~/Workspace/weise/'
 
 alias ll='ls -l'
 
