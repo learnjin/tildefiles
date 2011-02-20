@@ -3,6 +3,8 @@ vbell off
 
 defscrollback 10000
 
+shell -/bin/zsh
+
 escape ^Oo
 #escape ``
 #escape ~~

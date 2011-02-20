@@ -15,7 +15,7 @@ the repository:
 
 And finally pull down the submodules.
 
-    git submodules init
+    git submodule init
     git submodule update
 
 
