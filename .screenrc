@@ -26,7 +26,7 @@ hardstatus string '%{= kG}%-Lw%{= kW}%50> %n%f* %t%{= kG}%+Lw%< %{= kG}%-=%c:%s%
 
 # rails development
 
-chdir "/Users/kai/Desktop/Projects/Doxter/Workspace/weise"
+chdir "/Users/kai/Workspace/weise"
 #chdir "/Users/kai/tmp/weise"
 
 screen -t project
