@@ -2,7 +2,7 @@
 " http://github.com/hgimenez/vimfiles/blob/c07ac584cbc477a0619c435df26a590a88c3e5a2/vimrc#L72-122
 " http://nvie.com/posts/how-i-boosted-my-vim/
 
-"""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""""
 " Pathogen Plugin
 " http://www.vim.org/scripts/script.php?script_id=2332
 """""""""""""""""""""""""""""""""
@@ -119,7 +119,7 @@ set splitbelow                    " Split windows at bottom
 set splitright                    " Split window to right
 set ttimeoutlen=50                " Speed up <esc>
 
-
+map <Esc>Oq l
 
 
 " Visual stuff
@@ -137,7 +137,7 @@ set cf "enable error files and error jumping
 set history=1024
 set autowrite " writes on make/shell commands
 set ruler
-"set number "line numbers on
+set number "line numbers on
 
 """"""""""""""""""""""""""""""""""""""""""""
 " LOOKS

@@ -8,9 +8,9 @@ if os == "Linux"
   set guioptions=egrt " hide the menu bar
   set guifont="FreeMono 12"
   colorscheme  darkblue
-elseif os == "MacOS"
+elseif os == "Darwin"
   " set noanti
   set guifont=Menlo Regular:h11
-  colorscheme  mac_classic "slate
+  colorscheme  mac_classic
 end
 
