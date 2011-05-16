@@ -37,9 +37,7 @@ screen -t console
 stuff "rails console \015"
 screen -t server
 stuff "rails s \015"
-screen -t mongo
-stuff "mongo weise_development \015"
-screen -t logger
-stuff "tail -f log/klogger.log \015"
+screen -t irssi 
+stuff "irssi \015"
 
 
