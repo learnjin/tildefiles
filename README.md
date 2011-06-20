@@ -18,6 +18,13 @@ And finally pull down the submodules.
     git submodule init
     git submodule update
 
+Install needed utilities:
+
+    sudo apt-get install xclip par
+
+Run the install script:
+
+    ~/.install-tildefiles.sh
 
 Do add new files force add or ignore directories in `.gitignore`
 
