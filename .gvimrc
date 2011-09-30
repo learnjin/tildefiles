@@ -7,7 +7,8 @@ let os=substitute(system('uname'), "\n", "", "")
 if os == "Linux"
   set guioptions=egrt " hide the menu bar
   set guifont="FreeMono 12"
-  colorscheme  darkblue
+  set background=light
+  colorscheme  solarized
 elseif os == "Darwin"
   " set noanti
   set guifont=Menlo Regular:h11
