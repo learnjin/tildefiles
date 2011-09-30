@@ -12,3 +12,10 @@
 
 [core]
 	excludesfile = "/Users/kai/.gitexcludes"
+
+[alias]
+  co = checkout
+  br = branch
+
+
+
