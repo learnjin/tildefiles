@@ -70,7 +70,7 @@ set nobackup
 set noswapfile
 
 "display unreadable characters
-set list
+"set list
 " set listchars=tab:>.,trail:.,extends:#,nbsp:.
 " set listchars=tab:˲ˍ,trail:˽,nbsp:˽,eol:¶
 set listchars=tab:▸\ ,eol:¬ ",trail:˽,nbsp:˽
